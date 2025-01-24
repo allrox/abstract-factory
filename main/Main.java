@@ -40,11 +40,11 @@ public class Main {
         // Create concrete products using the factory object.
         Button button = factory.createButton();
         Checkbox checkbox = factory.createCheckbox();
-        System.out.println("Teste completed successfully! \n");
         
         // Render the products.
         button.render();
         checkbox.render();
+        System.out.println("Test completed successfully! \n");
         
         // Close the scanner object.
         scanner.close();
